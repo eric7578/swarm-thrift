@@ -1,7 +1,7 @@
 OUT_DIR = $(CURDIR)/swarm-thrift
 IMG_TAG = swarm-thrift
 
-.PHONY: clean, image, node, js
+.PHONY: clean image node js
 
 $(OUT_DIR): clean
 	mkdir $(OUT_DIR)
