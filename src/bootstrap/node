@@ -1,0 +1,2 @@
+#!/bin/sh
+thrift -r --gen js:node /thrift/swarm.thrift
