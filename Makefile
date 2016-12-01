@@ -13,3 +13,5 @@ node: $(OUT_DIR)
 	docker run --rm -v "$(OUT_DIR):/gen-nodejs" $(IMG_TAG) sh thrift/bootstrap/node
 js: $(OUT_DIR)
 	docker run --rm -v "$(OUT_DIR):/gen-js" $(IMG_TAG) sh thrift/bootstrap/js
+go: $(OUT_DIR)
+	docker run --rm -v "$(OUT_DIR):/gen-go" $(IMG_TAG) sh thrift/bootstrap/go
